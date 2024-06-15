@@ -1,6 +1,6 @@
 {
   "name": "react-create-keyframe",
-  "description": "Helper to render keyframes on-demand",
+  "description": "Helper to create and render keyframes on-demand in React",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
