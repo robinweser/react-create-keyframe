@@ -1,0 +1,48 @@
+{
+  "name": "react-create-keyframe",
+  "description": "Helper to render keyframes on-demand",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/**"
+  ],
+  "browserslist": [
+    "IE >= 11",
+    "Firefox >= 60",
+    "Safari >= 11.1",
+    "Chrome >= 66",
+    "ChromeAndroid >= 66",
+    "iOS >= 11.3",
+    "Edge >= 15"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc -b",
+    "dev": "pnpm build -w",
+    "release": "pnpm clean && pnpm check && npm publish",
+    "test": "ava",
+    "check": "pnpm build && pnpm test"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "dependencies": {
+    "css-in-js-utils": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^6.1.3",
+    "prettier": "^3.3.0",
+    "react": "^18.3.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^5.4.5"
+  }
+}
