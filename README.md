@@ -62,10 +62,10 @@ It takes a keyframe style object and an optional nonce and returns both the keyf
 
 It converts camel case properties to dash case equivalent, but it does not add units to numbers.
 
-| Parameter |  Type        |  Description              |
-| --------- | ------------ | ------------------------- |
-| keyframe  | `Keyframe`   | A keyframe style object   |
-| nonce     | `string?`    | (_optional_) nonce string |
+| Parameter |  Type                   |  Description              |
+| --------- | ----------------------- | ------------------------- |
+| keyframe  | [Keyframe](#keyframe)   | A keyframe style object   |
+| nonce     | `string?`               | (_optional_) nonce string |
 
 #### Keyframe
 
