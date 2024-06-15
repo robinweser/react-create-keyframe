@@ -73,8 +73,6 @@ It converts camel case properties to dash case equivalent, but it does not add u
 Partial<Record<'from' | 'to' | `${number}%`, CSSProperties>>
 ```
 
-A tuple of our keyframe animation name and a single `<style>` node.
-
 #### Example
 
 ```ts
