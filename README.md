@@ -1,6 +1,6 @@
 # react-create-keyframe
 
-A simple helper to craete and render keyframes on on-demand.<br />
+A simple helper to create and render keyframes on on-demand.<br />
 It (optionally) utilises React's new [style hoisting feature](https://react.dev/reference/react-dom/components/style#rendering-an-inline-css-stylesheet) when available.
 
 > **Note**: Style hoisting requires a canary version of React. Install via `react@canary`.
